@@ -1,0 +1,18 @@
+
+
+<ul *ngIf="condition"></ul>
+    <li *ngFor="let liste of listes">
+        {{liste|uppercase}}
+        <button (click)="delete(liste)">supprimer</button>
+    </li>
+</ol>
+
+
+
+<input name="test" type="text" [(ngModel)]="item">
+
+<button (click)="ajouter()"> ajouter</button>
+
+<button (click)="supprimer()"> supprimer</button><br>
+<button (click="toggle")>{{this.condition?"Cacher":"Affichier"}}</button>
+

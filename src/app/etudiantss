@@ -1,0 +1,11 @@
+export class EtudiantsComponent{
+    constructor(
+        public nom: String,
+        public prenom: String,
+        public age: number,
+        public note: number,
+        public indif: String,
+        public tel: String,
+        
+    ){}
+}
